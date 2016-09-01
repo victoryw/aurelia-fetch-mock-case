@@ -4,7 +4,8 @@ npm install karma-jasmine karma-chrome-launcher --save-dev
 npm install --save-dev jasmine
 npm install karma-sourcemap-loader --save-dev
 npm install webpack --save-dev
-
+npm install karma-webpack --save-dev
+npm install karma-sourcemap-loader --save-dev
 if [ ! -f ./karma.conf.js ]
 then
 	node_modules/karma/bin/karma init
