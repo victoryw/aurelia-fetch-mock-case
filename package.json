@@ -12,13 +12,18 @@
     "jasmine": "^2.5.0",
     "karma": "^1.2.0",
     "karma-chrome-launcher": "^2.0.0",
-    "karma-jasmine": "^1.0.2"
+    "karma-jasmine": "^1.0.2",
+    "karma-sourcemap-loader": "^0.3.7",
+    "webpack": "^1.13.2"
   },
   "dependencies": {
     "jasmine": "^2.5.0",
     "karma-chrome-launcher": "^2.0.0",
     "karma": "^1.2.0",
     "karma-jasmine": "^1.0.2"
+  },
+  "directories": {
+    "test": "test"
   },
   "description": ""
 }
