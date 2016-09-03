@@ -21,6 +21,9 @@
     "karma-webpack": "^1.8.0",
     "webpack": "^1.13.2"
   },
-  "dependencies": {},
+  "dependencies": {
+    "aurelia-fetch-client": "^1.0.0",
+    "fetch-mock": "^5.1.1"
+  },
   "description": ""
 }
