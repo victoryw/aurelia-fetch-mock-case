@@ -5,7 +5,7 @@ describe('http fetch mock', () => {
   it('should use the fetch mock', (done) => {
     let httpClient = new HttpClient();
     fetchMock.get('*', {hello: 'world'});
-    httpClient.fetch('package.json')
+    httpClient.fetch('http://www.baidu.com')
       .then(response => response.json())
       .then(data => {
          expect(data).toEqual({hello: 'world'});
